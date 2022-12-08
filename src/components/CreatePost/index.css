@@ -1,0 +1,57 @@
+.create-post {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #3a4b4c;
+}
+.create-post > .top {
+  display: flex;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+#caption-input {
+  width: 100%;
+  margin-left: 5px;
+}
+.create-post > .bottom {
+  padding: 10px 15px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+}
+.create-post > .bottom > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-post > .img-review {
+  padding: 10px 15px;
+}
+.create-post > .img-review img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.create-post > .buttons {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 15px;
+}
+
+@media (max-width: 450px) {
+  .create-post > .bottom {
+    font-size: x-small;
+  }
+}
+
+@media (max-width: 350px) {
+  .create-post > .bottom {
+    font-size: xx-small;
+  }
+}

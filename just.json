@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "choices": ["hahhah", "hiiii", "hooo"],
+      "answer": 1
+    },
+    {
+      "question": " Autem ad dignissimos iste, impedit dolor error? Omnis et dolore suscipit ",
+      "choices": ["adassdass", "qwerty", "wasd"],
+      "answer": 3
+    },
+    {
+      "question": "expedita ipsam numquam magnam consectetur, quos commodi a. Quos, maiores minima.",
+      "choices": ["zxcvb", "lonedkds", "qacverty"],
+      "answer": 2
+    }
+  ],
+  "title": "Som random quize",
+  "category": "chemistry"
+}

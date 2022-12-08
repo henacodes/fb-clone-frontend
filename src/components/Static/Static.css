@@ -1,0 +1,26 @@
+.static {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.static-buttons > div > .MuiIconButton-root {
+  color: #f6f6f6;
+  background: #3a3b3c !important;
+  margin: 5px !important;
+  font-size: small !important;
+}
+.static-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.static-buttons div {
+  background: #3a3b3c;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50%;
+}

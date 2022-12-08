@@ -1,0 +1,29 @@
+.modal {
+  background: white;
+  position: fixed;
+  overflow-y: auto;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.08);
+  transition: ease-in-out 0.4s;
+  min-width: 25vw;
+  color: #171717;
+  width: 100%;
+  left: 0%;
+  top: 10%;
+  z-index: 100;
+}
+
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.modal-body > .MuiSvgIcon-root {
+  color: red;
+  transform: scale(1.5);
+}

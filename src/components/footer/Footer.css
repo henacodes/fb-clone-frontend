@@ -1,0 +1,16 @@
+footer {
+  background: #29463b;
+}
+.footer-top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+}
+.footer-brand {
+  font-size: 50px;
+  color: #009d53;
+  font-weight: bolder;
+}

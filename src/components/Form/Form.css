@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.form-control .label {
+  font-size: small;
+  margin-bottom: -10px;
+  position: relative;
+  z-index: 10;
+  width: fit-content;
+  background: #242526 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #0090f0;
+  font-weight: lighter;
+}
+
+.form-control {
+  margin: 10px 0;
+}
+.form-control input {
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  border: 1px solid #b4b4b4;
+  border-radius: 3px;
+  width: 100%;
+  background: none;
+  color: white;
+}
+
+.form-control input:focus {
+  outline: none;
+  border: 2px solid #0090f0;
+}
+.form-control input:focus ::placeholder {
+  color: #242526;
+}
